@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+
+body {
+	font: 14px 맑은 고딕;
+}
+
+/*전체 웹 크기*/
+#wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+.today_hits{
+	float: left;
+	width: 200px;
+	height: 50px;
+	padding: 5px 5px;
+}
+
+.today_hits p{
+	margin: 0px;
+	font-size: 15px;
+}
+
+.member_login{
+	float: right;
+	width: 150px;
+	height: 30px;
+}
+
+.member_login a{
+	padding: 5px 5px;
+	font-size: 15px;
+}
+
+/*이미지 관련*/
+.header {
+	position:relative;
+	height: 390px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #53c1a3;
+	/*background-image: url('../image/gallery_main.jpg');*/
+	background-repeat: no-repeat;
+	background-position:center;
+}
+
+
+/*카테고리*/
+.navi{
+	text-align: center;
+	position:relative;
+	background:#271717;
+	margin-top:-14px;
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	height:60px;
+}
+.navi ul{
+	list-style: none;
+	height:40px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+}
+.navi ul li {
+	display:inline;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:18px;
+}
+
+.navi a, .navi a:visited {
+	padding: 10px 5px 5px 5px;
+	display: block;
+	color:#fff;
+	width: 160px;
+	text-decoration: none;
+}
+.navi a:hover, .navi a:active, .navi a:focus {
+		text-shadow:0px 2px 2px #000;
+		color:#FC0;
+}
+
+/*좌측 카테고리*/
+.navi_left{
+	float:left;
+	background:#4d34e7;
+	width:200px;
+	height:800px;
+}
+
+.navi_left ul{
+	list-style:none;
+	height:40px;
+	padding-top:10px;
+	padding-bottom:5px;
+}
+
+.navi_left ul li {
+	display:block;
+	float: left;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-size:15px;
+}
+
+/*좌측 카테고리 텍스트*/
+.navi_left a, .navi_left a:visited {
+	padding: 5px 5px 20px 20px;
+	margin-left: -60px;
+	font-size: 15px;
+	display: block;
+	color:#fff000;
+	width: 60px;
+	text-decoration: none;
+}
+
+/*본문 배경*/
+.content {
+	float:right;
+	width:760px;
+	height:800px;
+	background:#ffd800;
+}
+
+/*본문 내부 배경*/
+.content article{
+	float:left;
+	width:340px;
+	height:280px;
+	margin:20px;
+	background-color: #0003ff;
+}
+
+.pic{
+	width:340px;
+	height:220px;
+	background-color: #bd00ff
+}
+.title{
+	float: left;
+	width:250px;
+	height:60px;
+	background-color: #6900ff;
+}
+
+.hits{
+	float: right;
+	width:90px;
+	height:60px;
+	background-color: #ff8a00;
+}
+
+.footer{
+	clear:both;
+	height:120px;
+	background-color:#c3590a;
+}
