@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>갤러리 홈페이지</title>
+    <title>사진 글쓰기</title>
     <link href="css/header_style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="js/login_form.js"></script>
   </head>
@@ -40,53 +40,52 @@
         </nav>
       </div>
       <div class="content">
-          <article>
-            <div class="pic">
+        <div class="h2_title">
+          <h2>사진게시판 글쓰기</h2>
+        </div>
 
-            </div>
-            <div class="title">
+        <table border="1px solid black">
+          <tr>
+            <th>분 류</th>
+            <td>
+              <select name="required" class="required">
+                <option value="동물">동물</option>
+                <option value="인물">인물</option>
+                <option value="자연">자연</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>제 목</th>
+            <td>
+              <input class="photo_name_title" type="text" name="#"/>
+            </td>
+          </tr>
+          <tr>
+            <th>글쓴이</th>
+            <td>${}</td>
+          </tr>
+          <tr>
+            <th>파일첨부</th>
+            <td>
+              <input type="file" name="#"/>
+            </td>
+          </tr>
+          <tr>
+            <th>내용</th>
+            <td>
+              <textarea cols="80" rows="20" name="description"></textarea>
+            </td>
+          </tr>
+        </table>
+        <br />
+        <div class="botton_button">
+          <input id="btn_submit" type="submit" value="글쓰기"/>
+          <a class="btn_cancel" href="main.html">취소</a>
+        </div>
 
-            </div>
-            <div class="hits">
 
-            </div>
-          </article>
-          <article>
-            <div class="pic">
-
-            </div>
-            <div class="title">
-
-            </div>
-            <div class="hits">
-
-            </div>
-          </article>
-          <article>
-            <div class="pic">
-
-            </div>
-            <div class="title">
-
-            </div>
-            <div class="hits">
-
-            </div>
-          </article>
-          <article>
-            <div class="pic">
-
-            </div>
-            <div class="title">
-
-            </div>
-            <div class="hits">
-
-            </div>
-          </article>
-          <a href="write_board.html" class="write">글쓰기</a>
       </div>
-
       <div class="footer">
 
       </div>
