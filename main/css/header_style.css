@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+﻿@charset "utf-8";
+
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 body {
 	font: 14px 맑은 고딕;
 }
@@ -23,8 +28,12 @@ body {
 .member_login{
 	float: right;
 	width: 150px;
+<<<<<<< HEAD
 	height: 60px;
 	margin-top: 5px;
+=======
+	height: 30px;
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 }
 
 .member_login a{
@@ -37,6 +46,7 @@ body {
 	position:relative;
 	height: 390px;
 	width: 960px;
+<<<<<<< HEAD
 	background-image: url('../image/photo.jpg');
 	background-repeat: no-repeat;
 	background-position:center;
@@ -48,6 +58,12 @@ body {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+=======
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #53c1a3;
+	/*background-image: url('../image/gallery_main.jpg');*/
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 	background-repeat: no-repeat;
 	background-position:center;
 }
@@ -58,6 +74,7 @@ body {
 	text-align: center;
 	position:relative;
 	background:#271717;
+<<<<<<< HEAD
 	width:960px;
 	height:60px;
 }
@@ -66,10 +83,24 @@ body {
 	padding: 0px;
 	list-style: none;
 	height:40px;
+=======
+	margin-top:-14px;
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	height:60px;
+}
+.navi ul{
+	list-style: none;
+	height:40px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 }
 .navi ul li {
 	display:inline;
 	float: left;
+<<<<<<< HEAD
 	font-size:18px;
 	margin-left: 80px;
 	margin-right: 80px;
@@ -77,6 +108,15 @@ body {
 }
 
 .navi a, .navi a:visited {
+=======
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size:18px;
+}
+
+.navi a, .navi a:visited {
+	padding: 10px 5px 5px 5px;
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 	display: block;
 	color:#fff;
 	width: 160px;
@@ -157,6 +197,7 @@ body {
 	background-color: #ff8a00;
 }
 
+<<<<<<< HEAD
 .write{
 	float: right;
 	width:100px;
@@ -170,11 +211,14 @@ body {
 	border: 1px solid black;
 }
 
+=======
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
 .footer{
 	clear:both;
 	height:120px;
 	background-color:#c3590a;
 }
+<<<<<<< HEAD
 
 
 
@@ -309,3 +353,5 @@ a{
 	vertical-align: middle;
 	margin-top: -4px;
 }
+=======
+>>>>>>> c99240299d94228a306c4e0ccec94f5dd46c0f8f
