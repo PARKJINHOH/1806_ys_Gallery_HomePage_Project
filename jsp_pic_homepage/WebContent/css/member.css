@@ -1,0 +1,189 @@
+body {
+	font: 14px 맑은 고딕;
+}
+
+/*전체 웹 크기*/
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.today_hits {
+	float: left;
+	width: 200px;
+	height: 50px;
+	padding: 5px 5px;
+}
+
+.today_hits p {
+	margin: 0px;
+	font-size: 15px;
+}
+
+.member_login {
+	float: right;
+	width: 150px;
+	height: 30px;
+}
+
+.member_login a {
+	padding: 5px 5px;
+	font-size: 15px;
+}
+
+/*이미지 관련*/
+/* .header {
+	position:relative;
+	height: 390px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #53c1a3;
+	background-image: url('../image/gallery_main.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+} */
+.header {
+	position: relative;
+	height: 390px;
+	width: 960px;
+	background-image: url('../board_image/photo.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*카테고리*/
+.navi {
+	border: 1px solid black;
+	text-align: center;
+	position: relative;
+	background: #aa55ff;
+	margin-top: -14px;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 60px;
+}
+
+.navi ul {
+	margin-top: 0px;
+	list-style: none;
+	height: 40px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	margin-left: 160px;
+}
+
+.navi ul li {
+	display: inline;
+	float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 18px;
+}
+
+.navi a, .navi a:visited {
+	padding: 10px 5px 5px 5px;
+	display: block;
+	color: #ffff00;
+	width: 160px;
+	text-decoration: none;
+}
+
+.navi a:hover, .navi a:active, .navi a:focus {
+	text-shadow: 0px 2px 2px #000;
+	color: #FC0;
+}
+
+/*본문 배경*/
+.content {
+	float: right;
+	width: 960px;
+	height: 800px;
+	background: #dbdfdf;
+}
+
+/*본문 내부 배경*/
+.content article {
+	float: left;
+	width: 340px;
+	height: 280px;
+	margin: 20px;
+	background-color: #0003ff;
+}
+
+.content h1 {
+	padding-bottom: 10px;
+	padding-left: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.member_group {
+	width: 900px;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+.control_label {
+	width: 180px;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+}
+
+.id_nickchbutoon {
+	width: 180px;
+	font-size: 18px;
+	float: left;
+	text-align: center;
+}
+
+.login_box {
+	width: 200px;
+	font-size: 18px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+#member_check {
+	font-size: 17px;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	margin-left: 10px;
+}
+
+.content .member_group .member_atten {
+	margin-left: 190px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.bottom_btn {
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bottom_btn input {
+	margin-top: 10px;
+	font-size: 18px;
+	width: 75px;
+}
+
+#left {
+	float: left;
+}
+
+#right {
+	float: right;
+}
+
+.footer {
+	text-align: center;
+	clear: both;
+	height: 80px;
+	background-color: #d2f9ff;
+}
