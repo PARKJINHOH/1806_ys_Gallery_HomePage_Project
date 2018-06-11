@@ -53,7 +53,7 @@ public class ActionFactory {
 		System.out.println("ActionFactory : " + command);
 		str = strCut(command, "-", 3, -1, false, false);
 		strphoto = strCut(command, "p", 14, 0, false, false);
-		strphotonum = strCut(command, "=", 1, -1, false, false);
+		strphotonum = strCut(command, "=", 2, -1, false, false);
 		
 		//아이디 중복확인
 		strconfirmID = strCut(command, "l", 19, 0, false, false);
