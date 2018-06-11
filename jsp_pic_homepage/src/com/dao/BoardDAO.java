@@ -185,7 +185,7 @@ public class BoardDAO {
 	// 게시글 수정
 		public void UpdateBoard(BoardVO bVo) {
 			System.out.println("UpdateBoard 실행");
-			String sql = "update picture_board set pic_con=?, pic_cty=?, pic_pic=?, pic_sum=? , pic_consum=? where pic_num=?";
+			String sql = "update picture_board set pic_con=?, pic_cty=?, pic_pic=?, pic_sum=? , pic_consum=?, pic_name=? where pic_num=?";
 
 			Connection conn = null;
 			PreparedStatement pstmt = null;
@@ -196,13 +196,12 @@ public class BoardDAO {
 
 				
 				pstmt.setString(1, bVo.getPic_con());
-				System.out.println("bVo.getPic_con() : " + bVo.getPic_con());
 				pstmt.setString(2, bVo.getPic_cty());
 				pstmt.setString(3, bVo.getPic_pic());
 				pstmt.setString(4, bVo.getPic_sum());
 				pstmt.setString(5, bVo.getPic_consum());
-				pstmt.setInt(6, bVo.getPic_num());
-				System.out.println("bVo.getPic_num() : " + bVo.getPic_num());
+				pstmt.setString(6, bVo.getPic_name());
+				pstmt.setInt(7, bVo.getPic_num());
 
 				pstmt.executeUpdate();
 			} catch (Exception e) {

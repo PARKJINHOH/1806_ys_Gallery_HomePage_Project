@@ -74,16 +74,19 @@
               <th>분 류</th>
               <td>
                 <select name="selectCT" class="required">
-                  <option value="ani">동물</option>
-                  <option value="peo">인물</option>
-                  <option value="nat">자연</option>
+                 				<option value="ani">동물</option>
+								<option value="peo">인물</option>
+								<option value="nat">자연</option>
+								<option value="car">자동차</option>
+								<option value="mat">만화</option>
+								<option value="gam">게임</option>
                 </select>
               </td>
             </tr>
             <tr>
               <th>제 목</th>
               <td>
-               <input type="hidden" name="pic_num" value="${bVo.pic_num}"/>
+               	<input type="hidden" name="pic_num" value="${bVo.pic_num}"/>
                 <input class="photo_name_title" type="text" name="pic_name" value="${bVo.pic_name}"/>
               </td>
             </tr>
