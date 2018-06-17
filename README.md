@@ -18,3 +18,20 @@
 
 설명 : MVC패턴을 사용한 갤러리 홈페이지
 시작 : index.jsp 실행
+
+
+실행 화면
+![bandicam 2018-06-17 11-28-04-994](https://user-images.githubusercontent.com/24603994/41505076-7414d578-723b-11e8-9908-8d20379b56e4.jpg)
+![bandicam 2018-06-17 11-28-32-024](https://user-images.githubusercontent.com/24603994/41505082-a4c1d2d4-723b-11e8-9ebc-d6f3ecee0ac4.jpg)
+![bandicam 2018-06-17 11-29-48-216](https://user-images.githubusercontent.com/24603994/41505083-a9779e76-723b-11e8-9976-c639b833580a.jpg)
+![bandicam 2018-06-17 11-30-10-931](https://user-images.githubusercontent.com/24603994/41505084-ac9113b2-723b-11e8-8700-e6d4009a6f14.jpg)
+
+
+
+
+
+
+
+
+
+
